@@ -10774,7 +10774,7 @@ h5,
   padding: 0;
 }
 .ftco-navbar-light .container {
-  background: var(--our-black-color);
+  background: var(--our-blue-color);
   width: 1110px;
 }
 @media (max-width: 991.98px) {
@@ -11311,8 +11311,8 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: var(--our-orange-color);
-  border: 1px solid #fd5f00;
+  background: var(--our-blue-color);
+  border: 1px solid var(--our-blue-color);
   color: #fff;
 }
 .btn.btn-primary:hover {
@@ -11698,7 +11698,7 @@ h5,
 
 .blog-entry .meta-date {
   display: inline-block;
-  background: var(--our-blue-color);
+  background: var(--our-orange-color);
 }
 .blog-entry .meta-date span {
   display: block;

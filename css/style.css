@@ -11311,8 +11311,8 @@ h5,
   outline: none;
 }
 .btn.btn-primary {
-  background: var(--our-blue-color);
-  border: 1px solid var(--our-blue-color);
+  background: var(--our-orange-color);
+  border: 1px solid #fd5f00;
   color: #fff;
 }
 .btn.btn-primary:hover {
@@ -12891,5 +12891,7 @@ textarea.form-control {
 .darken{
    background-color: var(--our-blue-color);
 }
-/* #08214d */
-/* --our-black-color : #0A1124; */
+.read-more{
+  background-color: var(--our-blue-color) !important;
+  border: 1px solid var(--our-blue-color) !important;
+}

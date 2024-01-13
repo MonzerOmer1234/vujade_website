@@ -31,10 +31,10 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --our-blue-color : #08214d;
-  --our-orange-color : #E88607;
-  --our-black-color : #0A1124;
-  --our-brown-color : #b5500c;
+  --our-blue-color: #08214d;
+  --our-orange-color: #e88607;
+  --our-black-color: #0a1124;
+  --our-brown-color: #b5500c;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10777,22 +10777,20 @@ h5,
   background: var(--our-blue-color);
   width: 1110px;
 }
-@media (max-width:767px){
-  .ftco-navbar-light{
-    margin-top: -100px !important;
+@media (max-width: 767px) {
+  .ftco-navbar-light {
+    margin-top: -148px !important;
+    margin-bottom: -11px;
   }
 }
-/* @media ((min-width : 768px) and (max-width: 991.98px)){
-  .ftco-navbar-light {
-      margin-top: -40px;
-} */
+
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
     background: var(--our-blue-color) !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
-    
+    margin-left: -25px;
   }
 }
 .ftco-navbar-light .navbar-brand {
@@ -12893,26 +12891,51 @@ textarea.form-control {
 /* Our Code */
 @media (max-width: 767px) {
   .container .navbar-brand img {
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -40px;
   }
-
 }
-.darken{
-   background-color: var(--our-blue-color);
+.darken {
+  background-color: var(--our-blue-color);
 }
-.read-more{
+.read-more {
   background-color: var(--our-blue-color) !important;
   border: 1px solid var(--our-blue-color) !important;
 }
-.navbar.navbar-expand-lg{
+.navbar.navbar-expand-lg {
   background-color: var(--our-blue-color) !important;
 }
-@media (max-width :991px){
-  .topper{
+.navbar-light .navbar-toggler:focus{
+  outline: none;
+}
+@media ((min-width:768px) and (max-width: 991px)) {
+  .topper {
     position: relative;
     top: -30px;
     width: fit-content;
     margin-left: auto;
+  }
+  .navbar-light .navbar-brand {
+    width: 196px !important;
+    height: 196px !important;
+    margin-left: 200%;
+  }
+  .navbar-light .navbar-toggler{
+    align-self: center !important;
+  }
+}
+@media (max-width : 767px){
+  .row{
+    margin-top: 10px;
+  }
+  .navbar-light .navbar-brand{
+    margin-left: 80%;
+
+  }
+  .navbar-light .navbar-toggler{
+    position: relative;
+    top: 12px;
   }
 }

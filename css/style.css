@@ -10777,12 +10777,22 @@ h5,
   background: var(--our-blue-color);
   width: 1110px;
 }
+@media (max-width:767px){
+  .ftco-navbar-light{
+    margin-top: -100px !important;
+  }
+}
+/* @media ((min-width : 768px) and (max-width: 991.98px)){
+  .ftco-navbar-light {
+      margin-top: -40px;
+} */
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #0d1128 !important;
+    background: var(--our-blue-color) !important;
     position: relative;
     top: 0;
     padding: 10px 15px;
+    
   }
 }
 .ftco-navbar-light .navbar-brand {
@@ -12894,4 +12904,15 @@ textarea.form-control {
 .read-more{
   background-color: var(--our-blue-color) !important;
   border: 1px solid var(--our-blue-color) !important;
+}
+.navbar.navbar-expand-lg{
+  background-color: var(--our-blue-color) !important;
+}
+@media (max-width :991px){
+  .topper{
+    position: relative;
+    top: -30px;
+    width: fit-content;
+    margin-left: auto;
+  }
 }

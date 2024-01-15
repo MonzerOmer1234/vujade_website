@@ -12939,3 +12939,17 @@ textarea.form-control {
     top: 12px;
   }
 }
+@media (min-width : 1400px){
+   .header-section{
+     margin-left: 0;
+   }
+  .courses-section{
+    max-width: 1140px;
+  }
+
+  }
+  @media (min-width : 768px){
+    .details{
+      margin-right: 0 !important;
+    }
+  }

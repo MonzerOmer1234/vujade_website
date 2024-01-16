@@ -11171,7 +11171,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
@@ -12891,8 +12891,8 @@ textarea.form-control {
 /* Our Code */
 @media (max-width: 767px) {
   .container .navbar-brand img {
-    width: 70px;
-    height: 70px;
+    width: 70px !important;
+    height: 70px !important;
     position: relative;
     top: -40px;
   }
@@ -12907,10 +12907,10 @@ textarea.form-control {
 .navbar.navbar-expand-lg {
   background-color: var(--our-blue-color) !important;
 }
-.navbar-light .navbar-toggler:focus{
+.navbar-light .navbar-toggler:focus {
   outline: none;
 }
-@media ((min-width:768px) and (max-width: 991px)) {
+@media ((min-width: 768px) and (max-width: 991px)) {
   .topper {
     position: relative;
     top: -30px;
@@ -12922,34 +12922,39 @@ textarea.form-control {
     height: 196px !important;
     margin-left: 200%;
   }
-  .navbar-light .navbar-toggler{
+  .navbar-light .navbar-toggler {
     align-self: center !important;
   }
 }
-@media (max-width : 767px){
-  .row{
+@media (max-width: 767px) {
+  .row {
     margin-top: 10px;
   }
-  .navbar-light .navbar-brand{
+  .navbar-light .navbar-brand {
     margin-left: 80%;
-
   }
-  .navbar-light .navbar-toggler{
+  .navbar-light .navbar-toggler {
     position: relative;
     top: 12px;
   }
 }
-@media (min-width : 1400px){
-   .header-section{
-     margin-left: 0;
-   }
-  .courses-section{
+@media (min-width: 1400px) {
+  .header-section {
+    margin-left: 0;
+  }
+  .courses-section {
     max-width: 1140px;
   }
-
-  }
-  @media (min-width : 768px){
-    .details{
-      margin-right: 0 !important;
+}
+  @media (max-width: 767px) {
+    .header-section > .row {
+      position: relative;
+      top: -7px;
     }
   }
+
+@media (min-width: 768px) {
+  .details {
+    margin-right: 0 !important;
+  }
+}

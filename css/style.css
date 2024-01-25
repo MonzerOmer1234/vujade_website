@@ -12090,6 +12090,7 @@ textarea.form-control {
 .heading-section.heading-section-black h2 {
   color: #000000;
 }
+/* Our Code */
 
 .hotel-img,
 .img:not(.video),
@@ -12099,13 +12100,13 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.video{
+.video {
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
-@media (min-width : 768px){
-  .video{
+@media (min-width: 768px) {
+  .video {
     background-position: top center;
   }
 }
@@ -12956,35 +12957,51 @@ textarea.form-control {
     max-width: 1140px;
   }
 }
-  @media (max-width: 767px) {
-    .header-section > .row {
-      position: relative;
-      top: -7px;
-    }
+@media (max-width: 767px) {
+  .header-section > .row {
+    position: relative;
+    top: -7px;
   }
+}
 
 @media (min-width: 768px) {
   .details {
     margin-right: 0 !important;
   }
 }
-.uni{
-    height: 200px;
+.uni {
+  height: 200px;
 }
 /* start adjust margins in contact page */
-@media ((min-width:768px) and (max-width : 1199px)) {
-  .adjust-margin{
+@media ((min-width: 768px) and (max-width : 1199px)) {
+  .adjust-margin {
     margin-top: 3.5rem;
   }
 }
-.icon span{
+.icon span {
   margin-top: -30px;
 }
-p.comment{
+p.comment {
   margin-bottom: -2rem;
 }
-@media (max-width: 767px){
-  p.comment{
+@media (max-width: 767px) {
+  p.comment {
     margin-bottom: -4rem;
+  }
+}
+@media (min-width: 768px) {
+  .courses-p {
+    height: 200px !important;
+  }
+}
+@media (min-width: 992px) {
+  .courses-p {
+    height: 145px !important;
+  }
+}
+@media (max-width: 767px) {
+  .fab-note {
+    position: relative;
+    top: -100px ;
   }
 }

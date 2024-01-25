@@ -103,7 +103,7 @@ h6 {
   margin-bottom: 0.5rem;
 }
 
-p {
+p:not(.comment) {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -12092,12 +12092,22 @@ textarea.form-control {
 }
 
 .hotel-img,
-.img,
+.img:not(.video),
 .blog-img,
 .user-img {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.video{
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media (min-width : 768px){
+  .video{
+    background-position: top center;
+  }
 }
 
 .testimony-section {
@@ -12965,5 +12975,16 @@ textarea.form-control {
 @media ((min-width:768px) and (max-width : 1199px)) {
   .adjust-margin{
     margin-top: 3.5rem;
+  }
+}
+.icon span{
+  margin-top: -30px;
+}
+p.comment{
+  margin-bottom: -2rem;
+}
+@media (max-width: 767px){
+  p.comment{
+    margin-bottom: -4rem;
   }
 }
